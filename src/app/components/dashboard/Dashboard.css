@@ -1,0 +1,127 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 300px;
+  padding: 35px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 250px;
+  border: 0.1px solid #ddd;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+  /* font-weight: 600; */
+}
+
+.card h3 {
+  margin: 10px 0 ;  
+  font-size: 22px;
+}
+
+.change {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.change span {
+  color: #555;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.card-icon {
+  font-size: 23px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+}
+
+
+/* Color backgrounds */
+.light-blue {
+  background: #e8f9fd;
+}
+
+.light-purple {
+  background: #f7ecff;
+}
+
+.light-indigo {
+  background: #edf4ff;
+}
+
+.light-green {
+  background: #eafaf1;
+}
+
+.light-red {
+  background: #fff1f1;
+}
+/* //bg-icon */
+.light-blue-background{
+  background: #00b8f2;
+}
+.light-purple-background{
+  background: #8252e9;
+}
+.light-sky-background{
+  background: #0dcaf0;
+}
+.light-green-background{
+  background: #45B369;
+}
+.light-red-background{
+  background: #E30A0A;
+}
+
+/* salesChart */
+
+.sales-chart{
+  margin-top: 50px;
+}
+.UserTable{
+  margin-top: 40px;
+}
+  
