@@ -24,8 +24,12 @@
     padding: 10px 0;
     cursor: pointer;
     font-size: 15px;
-    color: #333;
+    color: #fff;
     gap: 10px;
+    background: #3366ff;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 8px;
   }
   
   .menu li.active {
