@@ -11,8 +11,8 @@ const data = [
   {
     title: "Totat Projects",
     value: "20",
-    change: "+5000",
-    description: "Last 30 days users",
+    change: "+5",
+    description: "Last 30 days projects",
     icon: <FaUsers />,
     color: "light-blue",
     IconBgColor: "light-blue-background"
@@ -20,8 +20,8 @@ const data = [
   {
     title: "Onhold Projects",
     value: "15",
-    change: "-800",
-    description: "Last 30 days subscription",
+    change: "-8",
+    description: "Last 30 days projects",
     icon: <GiReceiveMoney />,
     color: "light-purple",
     decrease: true,
@@ -30,8 +30,8 @@ const data = [
   {
     title: "Completed projects",
     value: "5",
-    change: "+200",
-    description: "Last 30 days users",
+    change: "+2",
+    description: "Last 30 days projects",
     icon: <FaUserAlt />,
     color: "light-indigo",
     IconBgColor: "light-sky-background"
