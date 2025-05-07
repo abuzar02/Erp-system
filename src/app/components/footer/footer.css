@@ -1,0 +1,10 @@
+.footer-sec{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    color: #888;
+    padding-left: 305px;
+}
+.footer-sec a{
+    color: rgb(25, 25, 243);
+}

@@ -56,13 +56,13 @@ const UsersTable = () => {
             className={activeTab === "registered" ? "tab active" : "tab"}
             onClick={() => setActiveTab("registered")}
           >
-            Latest Registered <span className="badge">35</span>
+            latest projects <span className="badge">35</span>
           </button>
           <button
             className={activeTab === "subscribe" ? "tab active" : "tab"}
             onClick={() => setActiveTab("subscribe")}
           >
-            Latest Subscribe <span className="badge gray">35</span>
+            Ongoing projects <span className="badge gray">35</span>
           </button>
         </div>
         <a href="#" className="view-all">
@@ -76,7 +76,6 @@ const UsersTable = () => {
             <tr>
               <th>Users</th>
               <th>Registered On</th>
-              <th>Plan</th>
               <th>Status</th>
             </tr>
           </thead>
@@ -91,7 +90,6 @@ const UsersTable = () => {
                   </div>
                 </td>
                 <td>{user.date}</td>
-                <td>{user.plan}</td>
                 <td>
                   <span className="status">{user.status}</span>
                 </td>

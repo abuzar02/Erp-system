@@ -5,6 +5,7 @@ import { FaUsers, FaUserAlt, FaWallet, FaRegMoneyBillAlt } from "react-icons/fa"
 import { GiReceiveMoney } from "react-icons/gi";
 import SalesChart from "../SalesChart/SalesChart";
 import UsersTable from "../SalesChart/UsersTable/UsersTable";
+// import Footer from "../footer/Footer";
 
 const data = [
   {
@@ -17,8 +18,8 @@ const data = [
     IconBgColor: "light-blue-background"
   },
   {
-    title: "Total Subscription",
-    value: "15,000",
+    title: "Onhold Projects",
+    value: "15",
     change: "-800",
     description: "Last 30 days subscription",
     icon: <GiReceiveMoney />,
@@ -27,8 +28,8 @@ const data = [
     IconBgColor: "light-purple-background"
   },
   {
-    title: "Total Free Users",
-    value: "5,000",
+    title: "Completed projects",
+    value: "5",
     change: "+200",
     description: "Last 30 days users",
     icon: <FaUserAlt />,
@@ -57,6 +58,7 @@ const data = [
 
 const Dashboard = () => {
   return (
+   <>
     <div className="dashboard">
       <h2>Dashboard</h2>
       <div className="card-container">
@@ -87,7 +89,12 @@ const Dashboard = () => {
         <div className="UserTable">
           <UsersTable />
         </div>
+        
     </div>
+    {/* <div>
+    <Footer />
+  </div> */}
+   </>
   );
 };
 

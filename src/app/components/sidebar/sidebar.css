@@ -41,4 +41,25 @@
     margin-top: 20px;
     margin-bottom: 10px;
   }
+  .New-Enquiry {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    width: 150px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    position: absolute;
+    left: 110px;
+  }
+  
+  .New-Enquiry.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
   
