@@ -9,8 +9,8 @@ import UsersTable from "../SalesChart/UsersTable/UsersTable";
 
 const data = [
   {
-    title: "Total Users",
-    value: "20,000",
+    title: "Totat Projects",
+    value: "20",
     change: "+5000",
     description: "Last 30 days users",
     icon: <FaUsers />,
