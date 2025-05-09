@@ -1,0 +1,23 @@
+form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #0a74da;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #084d9c;
+  }
+  
+  table th {
+    background-color: #f0f0f0;
+  }
+  

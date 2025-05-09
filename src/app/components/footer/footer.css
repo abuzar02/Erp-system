@@ -8,3 +8,13 @@
 .footer-sec a{
     color: rgb(25, 25, 243);
 }
+@media only screen and (max-width:720px){
+    .footer-sec {
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        color: #888;
+        padding-left: 70px;
+        font-size: 12px;
+    }
+}

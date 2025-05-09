@@ -124,4 +124,12 @@
 .UserTable{
   margin-top: 40px;
 }
-  
+@media only screen and (max-width : 720px){
+  .dashboard {
+    margin-left: 0;
+    padding: 20px;
+    flex: 1 1;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}
+}

@@ -42,3 +42,32 @@
     margin-left: 10px;
     gap: 5px;
   }
+  .hamburger {
+    display: none;
+    font-size: 21px;
+    position: fixed;
+    top: 19px;
+    left: 90px;
+    color: #000;
+    z-index: 1100;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block !important;
+    }
+    .search-sec {
+      display: flex
+  ;
+      align-items: center;
+      border: none;
+      padding: 8px 10px;
+      width: 219px;
+      border-radius: 6px;
+      background: #f5f5f5;
+      margin-left: 34px;
+      gap: 5px;
+  }
+  }
+  

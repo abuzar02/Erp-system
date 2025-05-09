@@ -1,0 +1,98 @@
+.company-master {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .company-master h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .company-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .company-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+  }
+  
+  .button-group {
+    margin-top: 10px;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .button-group button:hover {
+    background-color: #005bb5;
+  }
+  
+  .company-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .company-table th,
+  .company-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .company-table th {
+    background-color: #f5f5f5;
+  }
+  
+  .company-table td button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .company-table td button:first-child {
+    background-color: #2e8b57;
+    color: white;
+  }
+  
+  .company-table td button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .company-form {
+      grid-template-columns: 1fr;
+    }
+  
+    .company-master h2 {
+      font-size: 24px;
+    }
+  
+    .company-table th,
+    .company-table td {
+      font-size: 13px;
+      padding: 8px;
+    }
+  }
+  
